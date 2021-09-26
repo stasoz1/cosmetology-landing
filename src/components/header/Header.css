@@ -9,8 +9,9 @@ header {
     width: 100vw;
     height: 100vh;
     background-image: url("../../images/header.png");
-    background-size: cover;
+    background-size: 90%;
     padding: 0 8vw;
+    background-repeat: no-repeat;
 }
 nav {
     padding-top: 30px;
