@@ -12,11 +12,13 @@ import Footer from './components/footer/Footer';
 ReactDOM.render(
   <React.StrictMode>
     <Header />
-    <About />
-    <ServiceBlock />
-    <Photos />
-    <ReviewBlock />
-    <RegistrationForm />
+    <main>
+      <About />
+      <ServiceBlock />
+      <Photos />
+      <ReviewBlock />
+      <RegistrationForm />
+    </main>
     <Footer />
   </React.StrictMode>,
   document.getElementById('root')

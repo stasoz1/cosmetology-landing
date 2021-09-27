@@ -1,0 +1,58 @@
+p{ 
+    margin:0;
+}
+#about {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 15vw;
+    margin-bottom: 400px;
+    margin-top:15.4vw;
+}
+#about div {
+    height: 100%;
+}
+#aboutLeft {
+    width: 24%;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.83vw;
+    line-height: 1.25vw;
+    letter-spacing: 0.005em;
+    color: #313131;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.mainHeading {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 59px;
+    margin: 0;
+}
+#aboutDesc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#aboutImg {
+    height:15vw;
+    width:20.41vw
+}
+#aboutRight {
+    width:48%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+#aboutRight p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.83vw;
+    line-height: 1.25vw;
+    letter-spacing: 0.005em;
+}
+

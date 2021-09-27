@@ -5,6 +5,7 @@ import logo from "../../images/logo.png"
 
 const Header = () => {
     return (
+    <>
         <header>
             <nav>
                 <img alt="logo" src={logo}/>
@@ -29,6 +30,7 @@ const Header = () => {
                 </button>
             </div>  
         </header>
+    </>
     )
 }
 
