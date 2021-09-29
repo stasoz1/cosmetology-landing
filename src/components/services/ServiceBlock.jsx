@@ -6,10 +6,10 @@ import Service from './service/Service';
 
 const ServiceBlock = () => {
     return (
-        <>
+        <section id="serviceBlock">
             <ServiceFilter/>
             <Service/>
-        </>
+        </section>
     )
 }
 

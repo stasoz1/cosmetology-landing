@@ -7,13 +7,13 @@ p{
     justify-content: space-between;
     align-items: center;
     height: 15vw;
-    margin-bottom: 400px;
+    margin-bottom:15.4vw;
     margin-top:15.4vw;
 }
 #about div {
     height: 100%;
 }
-#aboutLeft {
+.sectionLeft {
     width: 24%;
     font-style: normal;
     font-weight: normal;
@@ -33,7 +33,7 @@ p{
     line-height: 59px;
     margin: 0;
 }
-#aboutDesc {
+.sectionDesc {
     display: flex;
     flex-direction: column;
     justify-content: center;

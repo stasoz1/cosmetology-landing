@@ -1,0 +1,27 @@
+#serviceFilter {
+    width: 19.58vw;
+}
+
+#filterDesc {
+    margin-top: 20px;
+    width: 19.58vw;
+}
+#filterSect h3 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.1vw;
+    line-height: 1.5vw;
+    margin-bottom: 8px;
+    color: #1E1E1E;
+}
+#filterSect ul li {
+    font-style: normal;
+    font-size: 0.83vw;
+    line-height: 1.25vw;
+    letter-spacing: 0.005em;
+    text-transform: capitalize;
+}
+#filterSect ul li:hover {
+    color:  #5478B6;
+    cursor: pointer;
+}
