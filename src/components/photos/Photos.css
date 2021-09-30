@@ -1,0 +1,20 @@
+#photosDesc {
+    margin-top: 15px;
+}
+#photoSec {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#photoList {
+    width: 63vw;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#photoList img {
+    width: 20.4vw;
+    height: 20.4vw;
+    margin-bottom: 0.83vw;
+}

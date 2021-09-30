@@ -23,14 +23,13 @@ p{
     color: #313131;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
 
 }
 .mainHeading {
     font-style: normal;
     font-weight: normal;
     font-size: 2.5vw;
-    line-height: 59px;
+    line-height: 3.07vw;
     margin: 0;
 }
 .sectionDesc {
