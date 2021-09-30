@@ -25,7 +25,6 @@ const ServiceFilter = () => {
                     <li>Tempor</li>
                 </ul>
             </div>
-            
         </div>
     )
 }
