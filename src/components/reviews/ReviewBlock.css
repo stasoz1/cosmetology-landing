@@ -1,0 +1,14 @@
+#reviewSec {
+    margin-top: 15.41vw;
+    display: flex;
+    flex-direction: row;
+}
+#reviewList {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 63vw;
+}
+#reviewSec .mainHeading {
+    margin-bottom: 1.09vw;
+}
