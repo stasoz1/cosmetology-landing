@@ -21,9 +21,6 @@ const Photos = () => {
                 <img src={photo} alt="examplePhoto" />
                 <img src={photo} alt="examplePhoto" />
                 <img src={photo} alt="examplePhoto" />
-                <img src={photo} alt="examplePhoto" />
-                <img src={photo} alt="examplePhoto" />
-                <img src={photo} alt="examplePhoto" />
             </div>
         </section>
         

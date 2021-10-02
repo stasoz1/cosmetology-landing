@@ -1,0 +1,52 @@
+#formSec {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#formDesc {
+    margin-top:1.09vw;
+}
+
+#formSec img {
+    height:15vw;
+    width: 20.41vw;
+}
+
+#formSec form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 40vw;
+}
+
+#inputs {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.contactInp {
+    width: 34vw;
+    background-color: #F1F4F9;
+    border:none;
+    border-bottom: 1px solid #C4C4C4;
+    height: 1.8vw;
+    outline: none;
+    margin-bottom: 1.25vw;
+}
+
+#formBut {
+    height: 2.9vw;
+    width: 13.3vw;
+    border:none;
+    background-color: rgba(84, 120, 182, 1);
+    color: white;
+    font-weight: 600;
+    font-size: 1.03vw;
+    line-height: 1.6vw;
+    letter-spacing: 0.004em;
+
+}
+    
