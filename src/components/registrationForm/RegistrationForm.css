@@ -25,6 +25,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    
 }
 
 .contactInp {
@@ -35,6 +36,7 @@
     height: 1.8vw;
     outline: none;
     margin-bottom: 1.25vw;
+    font-size: 0.83vw;
 }
 
 #formBut {
