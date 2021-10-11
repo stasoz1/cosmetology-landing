@@ -17,6 +17,9 @@ const Header = () => {
                     <div>Контакты</div>
                     <div>Связаться со мной</div>
                 </div>
+                <div className="mobile-burger">
+                    
+                </div>
             </nav>
             <div id="headerMain">
                 <h1>

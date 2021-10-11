@@ -54,3 +54,56 @@ nav {
     height: 2.9vw;
     font-size: 1vw;
 }
+.mobile-burger {
+    background-image: url("../../images/burger-menu.png");
+    width: 6.66vw;
+    height: 6.66vw;
+    background-size: cover;
+    display: none;
+}
+
+@media screen and (max-width:920px) {
+    .mobile-burger {
+        background-image: url("../../images/burger-menu.png");
+        width: 6vw;
+        height: 4.33vw;
+        background-size: cover;
+        display: flex;
+    }
+    #navbar {
+        display: none;
+    }
+    nav {
+        align-items: center;
+        padding-top: 2.22vw;
+    }
+    header {
+        padding: 0 4.44vw;
+        background-image: url("../../images/mobile-background.jpg");
+    }
+    #headerMain {
+        margin-left: 0;
+        margin-top: 8vh;
+    }
+    #headerMain h1 {
+        font-size:9.44vw;
+        width: 100%;
+        line-height: 11.4vw;
+        font-weight: normal;
+        letter-spacing: 0.0025em;
+    }
+    #headerMain #underHeader {
+        font-size: 4.44vw;
+        margin-top: 2.22vw;
+        letter-spacing: 0.0015em;
+        font-weight: normal;
+    }
+    #headerMain button {
+        margin-top: 56.68vh;
+        margin-left: 25.5%;
+        width: 44.44vw;
+        height: 11.11vw;
+        font-size: 3.88vw;
+        font-weight: 600;
+    }
+}
