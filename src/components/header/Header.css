@@ -77,6 +77,10 @@ nav {
         align-items: center;
         padding-top: 2.22vw;
     }
+    nav img {
+        width: 11vw;
+        height: 12.7vw;
+    }
     header {
         padding: 0 4.44vw;
         background-image: url("../../images/mobile-background.jpg");
@@ -100,6 +104,17 @@ nav {
     }
     #headerMain button {
         margin-top: 56.68vh;
+        margin-left: 25.5%;
+        width: 44.44vw;
+        height: 11.11vw;
+        font-size: 3.88vw;
+        font-weight: 600;
+    }
+}
+
+@media screen and (max-width:359px) {
+    #headerMain button {
+        margin-top: 45.68vh;
         margin-left: 25.5%;
         width: 44.44vw;
         height: 11.11vw;
