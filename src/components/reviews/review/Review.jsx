@@ -1,24 +1,24 @@
 import React from 'react'
 import './Review.css'
 
-import avatar from "../../../images/avatar.png"
 
-const Review = () => {
+
+const Review = (props) => {
     return (
         <div className ="reviewItem">
             <div className="userInfo">
-                <img src={avatar} alt="userAvatar"/>
+                <img src={props.img} alt="userAvatar"/>
                 <div className="userName">
                     <div>
-                        Имя Фамилия
+                        {props.name}
                     </div>
                     <div>
-                        20.20.2020
+                        {props.date}
                     </div>
                 </div>
             </div>
             <div className="reviewText">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                {props.text}
             </div>
         </div>
     )

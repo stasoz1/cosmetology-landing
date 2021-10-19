@@ -18,3 +18,8 @@
     height: 20.4vw;
     margin-bottom: 0.83vw;
 }
+@media screen and (max-width:920px) {
+    #photoSec {
+        display: none;
+    }
+}
