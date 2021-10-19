@@ -52,3 +52,23 @@
 
 }
     
+@media screen and (max-width:920px) {
+    #formSec {
+        flex-direction: column;
+        margin-top: 11.38vh;
+    }
+    #formSec img {
+        display: none;
+    }
+    .contactInp {
+        width: 91.12vw;
+        height: 11vw;
+        font-size: 3.88vw;
+    }
+    #formBut {
+        margin-top: 5vh;
+        width: 44.44vw;
+        height: 11.11vw;
+        font-size: 3.88vw;
+    }
+}
