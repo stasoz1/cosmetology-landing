@@ -55,7 +55,7 @@
 @media screen and (max-width:920px) {
     #formSec {
         flex-direction: column;
-        margin-top: 11.38vh;
+        margin-top: 14.4vh;
     }
     #formSec img {
         display: none;

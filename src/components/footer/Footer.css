@@ -12,10 +12,10 @@ footer {
 }
 #underCont {
     font-size: 0.83vw;
-    margin-top:1.09vw;
+    margin-top: 1.09vw;
 }
 #underCont div {
-    display:flex;
+    display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin-bottom: 8px;
@@ -35,16 +35,50 @@ footer {
     color: #313131;
 }
 iframe {
-    border:0;
+    border: 0;
     width: 62.5vw;
     height: 31.25vw;
 }
 #downFooter {
-    margin-top:14.8vw;
+    margin-top: 14.8vw;
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
-    padding :3.54vw 0;
+    padding : 3.54vw 0;
     background: linear-gradient(180deg, rgba(241, 244, 249, 0) 0%, rgba(171, 171, 171, 0.5) 100%);
+}
+
+@media screen and (max-width: 920px) {
+    footer {
+        padding: 0;
+        flex-direction: column;
+        margin-top: 14.4vh;
+    }
+    iframe {
+        width: 100vw;
+        height: 64.4vw;
+        margin-top: 3.3vh;
+    }
+    #footerLeft {
+        padding-left: 4.44vw;
+        width: 91.2vw;
+    }
+    .boldCont, .lightCont {
+        font-size: 3.88vw;
+        width: 44vw;
+        line-height: 6.66vw;
+        letter-spacing: 0.005em;
+    }
+    .lightCont {
+        width: 55vw;
+    }
+    #downFooter {
+        font-size: 3.33vw;
+        line-height: 5vw;  
+        text-align: center;
+        padding: 0 25vw;
+        padding-bottom: 7vw;
+        letter-spacing: 0.005em;
+    }
 }
