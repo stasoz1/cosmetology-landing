@@ -5,6 +5,9 @@
 html {
     overflow-x: hidden;
 } 
+body {
+    background-color: #f2f5f8 !important;
+}
 header {
     width: 100vw;
     height: 100vh;
@@ -84,6 +87,8 @@ nav {
     header {
         padding: 0 4.44vw;
         background-image: url("../../images/mobile-background.jpg");
+        background-size: 102%;
+        background-repeat: no-repeat;
     }
     #headerMain {
         margin-left: 0;

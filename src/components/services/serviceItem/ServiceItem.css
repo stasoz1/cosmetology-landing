@@ -1,10 +1,14 @@
 #serviceItem {
     width:20.4vw;
-    height: 28.8vw;
+    height: 33.8vw;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
     margin-bottom: 1.875vw;
+    margin-right:0.83vw ;
+    transition: all 1s ease-in-out;
+}
+#serviceItem:nth-child(3n) {
+    margin-right: 0;
 }
 #serviceItem h3 {
     font-style: normal;
@@ -12,7 +16,7 @@
     font-size: 1.1vw;
     line-height: 1.5vw;
     margin-bottom: 8px;
-    margin-top: 8px;
+    margin-top: 0.83vw;
     color: #1E1E1E;
 }
 #serviceItem img {

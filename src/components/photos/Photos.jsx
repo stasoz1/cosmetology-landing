@@ -11,7 +11,7 @@ const Photos = () => {
                     Фото
                 </h1>
                 <div className="sectionDesc" id="photosDesc">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    Фото наши клиентов, до и после процедур.
                 </div>
             </div>
             <div id="photoList">

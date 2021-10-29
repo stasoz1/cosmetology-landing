@@ -35,7 +35,8 @@ p{
 .sectionDesc {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
+    margin-top: 1vw;
 }
 #aboutImg {
     height:15vw;
@@ -66,7 +67,7 @@ p{
         font-size: 3.88vw;
         margin-top: 4.44vw;
         line-height: 5.83vw;
-        
+        margin-bottom: 12.22vh;
     }
     #about {
         flex-direction: column;
