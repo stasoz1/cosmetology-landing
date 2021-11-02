@@ -8,16 +8,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-// const LeftArrow = () => {
-//     return (
-//         <button class="slick-arrow">
-//             <div className="leftArrow" >
 
-//             </div>
-//         </button>
-       
-//     )
-// }
 
 const ReviewBlock = () => {
     const settings =  {
@@ -28,17 +19,16 @@ const ReviewBlock = () => {
         dots:false,
         adaptiveHeight:true,
         draggable:true,
-        // prevArrow: <LeftArrow/>
       };
     return (
         <>
-            <section id="reviewSec">
+            <section id="reviewSec" name="reviews">
                 <div id="reviewLeft" className="sectionLeft">
                     <div className="mainHeading">
                         Отзывы
                     </div>
                     <div className="sectionDesc">
-                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.
+                        Отзывы наших клиентов
                     </div>
                 </div>
                 <div id="reviewList">

@@ -1,7 +1,13 @@
 import React from 'react'
 import './Photos.css'
 
-import photo from "../../images/photoComp/1.png"
+import first from "../../images/photoComp/1.png"
+import sec from "../../images/photoComp/2.png"
+import third from "../../images/photoComp/3.png"
+import fBef from "../../images/photoComp/1-before.png"
+import sBef from "../../images/photoComp/2-before.png"
+import tBef from "../../images/photoComp/3-before.png"
+
 
 const Photos = () => {
     return (
@@ -15,12 +21,14 @@ const Photos = () => {
                 </div>
             </div>
             <div id="photoList">
-                <img src={photo} alt="examplePhoto" />
-                <img src={photo} alt="examplePhoto" />
-                <img src={photo} alt="examplePhoto" />
-                <img src={photo} alt="examplePhoto" />
-                <img src={photo} alt="examplePhoto" />
-                <img src={photo} alt="examplePhoto" />
+                <div className="befAf">До</div>
+                <img src={fBef} alt="examplePhoto"/>
+                <img src={sBef} alt="examplePhoto"/>
+                <img src={tBef} alt="examplePhoto"/>
+                <div className="befAf">После</div>
+                <img src={first} alt="examplePhoto"/>
+                <img src={sec} alt="examplePhoto"/>
+                <img src={third} alt="examplePhoto"/>
             </div>
         </section>
         

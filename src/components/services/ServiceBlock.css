@@ -18,6 +18,7 @@
     font-size: 1.1vw;
     line-height: 1.5vw;
     margin-bottom: 8px;
+    margin-top: 32px;
     color: #1E1E1E;
 }
 #filterSect ul li {
@@ -40,7 +41,14 @@
     justify-content: flex-start;
     flex-wrap: wrap;
 }
-
+#cleanFilter {
+    font-weight: 600;
+    font-size: 0.83vw;
+    line-height: 1.1vw;
+    letter-spacing: 0.005em;
+    color: #5478B6;
+    cursor: pointer;
+}
 .more {
     display: flex;
     flex-direction: row;
@@ -70,7 +78,7 @@
 .chosen {
     color:  #5478B6;
 }
-#mobileServiceBlock {
+#mServiceBlock {
     display: none;
 }
 @media screen and (max-width:920px) {
@@ -161,7 +169,7 @@
     .mItemPrice {
         font-weight: 600;
         font-size: 3.88vw;
-        line-height: 4.72vw;
+        line-height: 6.72vw;
         letter-spacing: 0.005em;
         color: #1E1E1E;
     }

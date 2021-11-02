@@ -2,8 +2,8 @@ import fIcon from "../components/services/serviceImages/1.png"
 import cosmeticIcon from "../components/services/serviceImages/2.png"
 import figureIcon from "../components/services/serviceImages/3.png"
 
-export default function pageText () {
-    return ([{
+const pageText = [{
+   
         img:cosmeticIcon,
         heading:"Карбокситерапия",
         price:"600 грн",
@@ -95,5 +95,6 @@ export default function pageText () {
         desc:"VelaShape – это новейшая разработка, признанная революционной, которая объединила в себе биполярную радиочастотную энергию и энергию инфракрасного излучения, отрицательное пульсовое давление и механическое влияние на тканевые участки. "
     
     },
-    ] )
-}
+    ] 
+
+export default pageText

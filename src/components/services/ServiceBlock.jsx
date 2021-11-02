@@ -3,36 +3,49 @@ import { Accordion } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './ServiceBlock.css'
 
+
 import ServiceItem from './serviceItem/SevriceItem';
 import pageText from "../text"
 
 
 const ServiceBlock = () => { 
-    const allServiceList = pageText().map((el) => {
-        return (<ServiceItem data={el}/>)
-    })
-    const splicedList = allServiceList.slice(0,6)
-
-    let [shownServices, changeService] = useState(splicedList)
+    const allServiceList = pageText.map((el) => <ServiceItem data={el}/>)
+    const loadedServices = 6
+    const slicedList = allServiceList.slice(0,loadedServices)
+    let [filterButtons,setFilterButtons] = useState([
+        {
+            text: 'Косметология',
+            id: 'cosmetic',
+            activeClass:""
+        },
+        {
+            text: 'Лазерная эпиляция',
+            id: 'laser',
+            activeClass:""
+        },
+        {
+            text: 'Коррекция фигуры',
+            id: 'figure',
+            activeClass:""
+        }
+    ])
+    let [shownServices, changeService] = useState(slicedList)
     let [moreClass, setMore] = useState("more")
-    let [chosenFilterClass, setFilterClass] = useState(["","",""])
 
     function setFilter (e) {
-        setFilterClass(["","",""])
+        setFilterButtons(filterButtons.map((f) => {
+            return({
+                text:f.text,
+                id:f.id,
+                activeClass:e.target.id === f.id ? "chosen" : ""
+            })
+        }))
         setMore("hidden")
 
-        if(e.target.id === "cosmetic")  setFilterClass(["chosen","",""]) 
-        if(e.target.id === "laser") setFilterClass(["","chosen",""]) 
-        if(e.target.id === "figure") setFilterClass(["","","chosen"]) 
-        
-        const currentFilterArr = pageText().filter((arrEl) => {
-                return(e.target.id === arrEl.type)
-            }
-        )
-        const currentFilterComp = currentFilterArr.map((el) => {
-                return(<ServiceItem data = {el}/>)
-            }
-        )
+
+        const currentFilterArr = pageText.filter((arrEl) => e.target.id === arrEl.type)
+        const currentFilterComp = currentFilterArr.map((el) => <ServiceItem data = {el}/>)
+
         changeService(currentFilterComp)
     }
 
@@ -41,6 +54,17 @@ const ServiceBlock = () => {
         setMore("hidden")
     }
 
+    function cleanFilter () {
+        setFilterButtons(filterButtons.map((f) => {
+            return({
+                text:f.text,
+                id:f.id,
+                activeClass:""
+            })
+        }))
+        setMore("more")
+        changeService(slicedList)
+    }
     return (
         <>
             <section id="serviceBlock">
@@ -58,10 +82,11 @@ const ServiceBlock = () => {
                             Фильтры:
                         </h3>
                         <ul>
-                            <li id="cosmetic" className={chosenFilterClass[0]} onClick={setFilter}>Косметология</li>
-                            <li id="laser" className={chosenFilterClass[1]} onClick={setFilter}>Лазерная эпиляция</li>
-                            <li id="figure" className={chosenFilterClass[2]} onClick={setFilter}>Коррекция фигуры</li>
+                            {filterButtons.map(el => <li id={el.id} onClick={setFilter} className={el.activeClass}>{el.text}</li>)}
                         </ul>
+                        <div onClick={cleanFilter} id="cleanFilter">
+                            Очистить фильтр
+                        </div>    
                     </div>
                 </div>
                 <div className="serviceList">
@@ -121,6 +146,10 @@ const ServiceBlock = () => {
                                   <div className="mobileListItem">
                                       <div className="mItemHead">Уход по типу кожи</div>
                                       <div className="mItemPrice">300 грн.</div>
+                                  </div>
+                                  <div className="mobileListItem">
+                                      <div className="mItemHead">Фотоомоложение</div>
+                                      <div className="mItemPrice">500 грн.</div>
                                   </div>
                             </Accordion.Body>
                         </Accordion.Item>
