@@ -14,12 +14,10 @@ const RegistrationForm = () => {
         const sendEmail = (e) => {
             e.preventDefault();
             debugger
-            const inputs = Array.from(document.querySelectorAll(".contactInp"))
             const phoneLength = 16
-            if(inputs[0].value === "" ||
-                inputs[1].value === "" ||
-                inputs[1].value.length !== phoneLength) {
-                    console.log(inputs[1].value.length)
+            if(nameInpValue === "" ||
+                inpValue === "" ||
+                inpValue.length !== phoneLength) {
                     alert("Невeрный ввод")
             }
             else {
