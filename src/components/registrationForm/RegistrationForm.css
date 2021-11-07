@@ -3,7 +3,12 @@
     flex-direction: row;
     justify-content: space-between;
 }
-
+#error::-webkit-input-placeholder {
+    color: red;
+}
+#error {
+    border-color:red;
+}
 #formDesc {
     margin-top:1.09vw;
 }
