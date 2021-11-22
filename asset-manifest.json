@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/cosmetology-landing/static/css/main.ab68d1f6.chunk.css",
+    "main.js": "/cosmetology-landing/static/js/main.1fed5977.chunk.js",
+    "main.js.map": "/cosmetology-landing/static/js/main.1fed5977.chunk.js.map",
+    "runtime-main.js": "/cosmetology-landing/static/js/runtime-main.230b9c52.js",
+    "runtime-main.js.map": "/cosmetology-landing/static/js/runtime-main.230b9c52.js.map",
+    "static/css/2.3a1971fb.chunk.css": "/cosmetology-landing/static/css/2.3a1971fb.chunk.css",
+    "static/js/2.4ef02b09.chunk.js": "/cosmetology-landing/static/js/2.4ef02b09.chunk.js",
+    "static/js/2.4ef02b09.chunk.js.map": "/cosmetology-landing/static/js/2.4ef02b09.chunk.js.map",
+    "index.html": "/cosmetology-landing/index.html",
+    "static/css/2.3a1971fb.chunk.css.map": "/cosmetology-landing/static/css/2.3a1971fb.chunk.css.map",
+    "static/css/main.ab68d1f6.chunk.css.map": "/cosmetology-landing/static/css/main.ab68d1f6.chunk.css.map",
+    "static/js/2.4ef02b09.chunk.js.LICENSE.txt": "/cosmetology-landing/static/js/2.4ef02b09.chunk.js.LICENSE.txt",
+    "static/media/1-before.6f3ef4b8.png": "/cosmetology-landing/static/media/1-before.6f3ef4b8.png",
+    "static/media/1.02d36fdd.png": "/cosmetology-landing/static/media/1.02d36fdd.png",
+    "static/media/ServiceBlock.css": "/cosmetology-landing/static/media/3.7cd6e003.png",
+    "static/media/2-before.e879d16b.png": "/cosmetology-landing/static/media/2-before.e879d16b.png",
+    "static/media/2.f313e4cd.png": "/cosmetology-landing/static/media/2.f313e4cd.png",
+    "static/media/3-before.323c4508.png": "/cosmetology-landing/static/media/3-before.323c4508.png",
+    "static/media/3.4fe8db7e.png": "/cosmetology-landing/static/media/3.4fe8db7e.png",
+    "static/media/aboutImg.edeb999c.png": "/cosmetology-landing/static/media/aboutImg.edeb999c.png",
+    "static/media/form.4066bb0a.png": "/cosmetology-landing/static/media/form.4066bb0a.png",
+    "static/media/Header.css": "/cosmetology-landing/static/media/mobile-background.af9b319c.jpg",
+    "static/media/slick-theme.css": "/cosmetology-landing/static/media/slick.c94f7671.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.230b9c52.js",
+    "static/css/2.3a1971fb.chunk.css",
+    "static/js/2.4ef02b09.chunk.js",
+    "static/css/main.ab68d1f6.chunk.css",
+    "static/js/main.1fed5977.chunk.js"
+  ]
+}
