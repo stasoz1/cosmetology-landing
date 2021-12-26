@@ -9,6 +9,9 @@ const Footer = () => {
                     <div className="mainHeading">
                         Контакты
                     </div>
+                    <div className='mobileHeader'>
+                        Контакты
+                    </div>
                     <div id="underCont">
                         <div>
                             <span className="boldCont">Телефон:</span>
