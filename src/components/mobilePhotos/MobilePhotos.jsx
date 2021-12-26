@@ -14,28 +14,28 @@ import a4 from "../../images/mobileComp/44.jpg"
 
 const beforeCompObject = {
     b1Object : {
-        imageUrl: b1
-    },
-    a1Object : {
         imageUrl: a1
     },
-    b2Object : {
-        imageUrl: b2
+    a1Object : {
+        imageUrl: b1
     },
-    a2Object : {
+    b2Object : {
         imageUrl: a2
     },
-    b3Object : {
-        imageUrl: b3
+    a2Object : {
+        imageUrl: b2
     },
-    a3Object : {
+    b3Object : {
         imageUrl: a3
     },
+    a3Object : {
+        imageUrl: b3
+    },
     b4Object : {
-        imageUrl: b4
+        imageUrl: a4
     },
     a4Object : {
-        imageUrl: a4
+        imageUrl: b4
     },
 }
 
