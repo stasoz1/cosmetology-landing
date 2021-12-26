@@ -74,8 +74,8 @@ p{
         letter-spacing: 0.005em;
     }
     .sectionDescMobile p {
-        margin-top: 0;
-        margin-bottom: 1rem;
+        margin-top: 0 !important;
+        margin-bottom: 1rem !important;
     }
     #about {
         flex-direction: column;
