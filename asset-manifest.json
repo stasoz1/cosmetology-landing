@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/cosmetology-landing/static/css/main.39660df7.chunk.css",
+    "main.css": "/cosmetology-landing/static/css/main.dddab73f.chunk.css",
     "main.js": "/cosmetology-landing/static/js/main.f8fcc295.chunk.js",
     "main.js.map": "/cosmetology-landing/static/js/main.f8fcc295.chunk.js.map",
     "runtime-main.js": "/cosmetology-landing/static/js/runtime-main.48bd07f4.js",
@@ -10,7 +10,7 @@
     "static/js/2.3a0fa658.chunk.js.map": "/cosmetology-landing/static/js/2.3a0fa658.chunk.js.map",
     "index.html": "/cosmetology-landing/index.html",
     "static/css/2.33c2e1e3.chunk.css.map": "/cosmetology-landing/static/css/2.33c2e1e3.chunk.css.map",
-    "static/css/main.39660df7.chunk.css.map": "/cosmetology-landing/static/css/main.39660df7.chunk.css.map",
+    "static/css/main.dddab73f.chunk.css.map": "/cosmetology-landing/static/css/main.dddab73f.chunk.css.map",
     "static/js/2.3a0fa658.chunk.js.LICENSE.txt": "/cosmetology-landing/static/js/2.3a0fa658.chunk.js.LICENSE.txt",
     "static/media/1.63023dde.jpg": "/cosmetology-landing/static/media/1.63023dde.jpg",
     "static/media/ServiceBlock.css": "/cosmetology-landing/static/media/3.7cd6e003.png",
@@ -30,7 +30,7 @@
     "static/js/runtime-main.48bd07f4.js",
     "static/css/2.33c2e1e3.chunk.css",
     "static/js/2.3a0fa658.chunk.js",
-    "static/css/main.39660df7.chunk.css",
+    "static/css/main.dddab73f.chunk.css",
     "static/js/main.f8fcc295.chunk.js"
   ]
 }
