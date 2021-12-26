@@ -7,7 +7,9 @@ import avatar from "../../images/avatar.png"
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-
+import M from "../../images/M.png"
+import K from "../../images/К.png"
+import O from "../../images/О.png"
 
 
 const ReviewBlock = () => {
@@ -32,12 +34,12 @@ const ReviewBlock = () => {
                     </div>
                 </div>
                 <div id="reviewList">
-                    <Review img={avatar} name="Имя Фамилия" date="20.20.2020"
-                    text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. "/>
-                    <Review img={avatar} name="Имя Фамилия" date="20.20.2020"
-                    text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. "/>
-                    <Review img={avatar} name="Имя Фамилия" date="20.20.2020"
-                    text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. "/>
+                    <Review img={M} name="Мария Меда" date="10.10.2021"
+                    text="С Подросткового возраста волновали высыпания на лице, обратилась к косметологу Лене, она мне рассказала какие мне нужно анализы сдать, подобрала домашний уход, а так же курс пилингов. Сейчас лицо стало намного лучше выглядеть."/>
+                    <Review img={K} name="Кристина Дибровская" date="20.11.2021"
+                    text="Пользовалась эпилятором и бритвой из-за этого стали жутко врастать волосы, в этом году решила пойти на лазерную эпиляцию, результат не заставил ждать. После 4 процедуры я заметила, что волосы на ногах стали тоньше и светлее, а в некоторых местах перестали и вовсе расти."/>
+                    <Review img={O} name="Оксана Танчук" date="29.11.2021"
+                    text="Очень беспокоят морщины вокруг глаз, но не хочу прибегать к инъекциям. Лена порекомендовала аппаратную процедуру фотоомоложение. Благодаря ей мое лицо подтянулась, тон лица выровнялся, а так же воспалительные сосуды на крыльях носа исчезли. Спасибо большое!"/>
                 </div>
             </section>
             <section id="reviewSecMobile">
@@ -46,16 +48,16 @@ const ReviewBlock = () => {
                 </div>
                 <Slider {...settings}>
                     <div>
-                        <Review img={avatar} name="Имя Фамилия" date="20.20.2020"
-                        text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. "/>
+                        <Review img={M} name="Мария Меда" date="10.10.2021"
+                        text="С Подросткового возраста волновали высыпания на лице, обратилась к косметологу Лене, она мне рассказала какие мне нужно анализы сдать, подобрала домашний уход, а так же курс пилингов. Сейчас лицо стало намного лучше выглядеть."/>
                     </div>
                     <div>
-                        <Review img={avatar} name="Имя Фамилия" date="20.20.2020"
-                        text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. "/>
+                        <Review img={K} name="Кристина Дибровская" date="20.11.2021"
+                        text="Пользовалась эпилятором и бритвой из-за этого стали жутко врастать волосы, в этом году решила пойти на лазерную эпиляцию, результат не заставил ждать. После 4 процедуры я заметила, что волосы на ногах стали тоньше и светлее, а в некоторых местах перестали и вовсе расти."/>
                     </div>
                     <div>
-                        <Review img={avatar} name="Имя Фамилия" date="20.20.2020"
-                        text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. "/>
+                        <Review img={O} name="Оксана Танчук" date="29.11.2021"
+                        text="Очень беспокоят морщины вокруг глаз, но не хочу прибегать к инъекциям. Лена порекомендовала аппаратную процедуру фотоомоложение. Благодаря ей мое лицо подтянулась, тон лица выровнялся, а так же воспалительные сосуды на крыльях носа исчезли. Спасибо большое!"/>
                     </div>
                 </Slider>
             </section>

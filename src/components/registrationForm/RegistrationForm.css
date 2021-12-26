@@ -61,9 +61,7 @@ form label {
     flex-direction: column;
     justify-content: space-between;
 }
-.css-1d1r5q-MuiFormHelperText-root {
-    font-size: 0.6vw !important;
-}
+
 
     
 @media screen and (max-width:920px) {

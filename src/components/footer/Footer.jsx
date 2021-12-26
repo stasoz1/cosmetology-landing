@@ -12,7 +12,9 @@ const Footer = () => {
                     <div id="underCont">
                         <div>
                             <span className="boldCont">Телефон:</span>
-                            <span className="lightCont">+38 095 256-32-32</span>
+                            <span className="lightCont">	
+                                <a href="tel:+380952563232"><u>+38 095 256-32-32</u></a>
+                            </span>
                         </div>
                         <div>
                             <span className="boldCont">E-mail:</span>

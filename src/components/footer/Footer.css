@@ -34,6 +34,11 @@ footer {
     letter-spacing: 0.005em;
     color: #313131;
 }
+
+.lightCont a {
+    color: #5478B6;
+}
+
 iframe {
     border: 0;
     width: 50.5vw;

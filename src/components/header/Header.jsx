@@ -12,7 +12,7 @@ const Header = () => {
     <Accordion id="mobileAcc" defaultActiveKey="0" flush>
                     <Accordion.Item eventKey="1">
                         <Accordion.Header>
-                            <img alt="logo" id="mobileLogo" src={logo}/>
+                            <img alt="logo" id="mobileLogo" src={desktopLogo}/>
                         </Accordion.Header>
                         <Accordion.Body>
                             <div id="mobileNav">

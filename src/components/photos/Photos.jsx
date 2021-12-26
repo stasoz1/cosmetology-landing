@@ -1,12 +1,14 @@
 import React from 'react'
 import './Photos.css'
 
-import first from "../../images/photoComp/1.png"
-import sec from "../../images/photoComp/2.png"
-import third from "../../images/photoComp/3.png"
-import fBef from "../../images/photoComp/1-before.png"
-import sBef from "../../images/photoComp/2-before.png"
-import tBef from "../../images/photoComp/3-before.png"
+import b1 from "../../images/mobileComp/1.jpg"
+import a1 from "../../images/mobileComp/11.jpg"
+import b2 from "../../images/mobileComp/2.jpg"
+import a2 from "../../images/mobileComp/22.jpg"
+import b3 from "../../images/mobileComp/3.jpg"
+import a3 from "../../images/mobileComp/33.jpg"
+import b4 from "../../images/mobileComp/4.jpg"
+import a4 from "../../images/mobileComp/44.jpg"
 
 
 const Photos = () => {
@@ -22,13 +24,13 @@ const Photos = () => {
             </div>
             <div id="photoList">
                 <div className="befAf">До</div>
-                <img src={fBef} alt="examplePhoto"/>
-                <img src={sBef} alt="examplePhoto"/>
-                <img src={tBef} alt="examplePhoto"/>
+                <img src={b1} alt="examplePhoto"/>
+                <img src={b2} alt="examplePhoto"/>
+                <img src={b3} alt="examplePhoto"/>
                 <div className="befAf">После</div>
-                <img src={first} alt="examplePhoto"/>
-                <img src={sec} alt="examplePhoto"/>
-                <img src={third} alt="examplePhoto"/>
+                <img src={a1} alt="examplePhoto"/>
+                <img src={a2} alt="examplePhoto"/>
+                <img src={a3} alt="examplePhoto"/>
             </div>
         </section>
         
