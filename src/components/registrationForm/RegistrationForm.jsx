@@ -24,7 +24,7 @@ const validationSchema = yup.object({
   });
 
 const botToken = '2112801907:AAEDhGu4uIBUgm23XDDTaqYQFWI2bSIUpIM';
-const chatId = '-701342146';
+const chatId = '-1001604279965';
 
 const BootstrapDialog = styled(Dialog)(({ theme }) => ({
     '& .MuiDialogContent-root': {
